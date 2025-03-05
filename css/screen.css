@@ -5,9 +5,10 @@ body {
 #content{
   background-color: #C09379;
   border-style: solid;
-  border-width: 0.216em;
+  border-width: 0.047em;
   margin: 1.667em;
-  border-radius: 2.779em;
+  border-radius: 1em;
+  box-shadow: 2em 2em 1.5em #4D3E3D;
 }
 
 h1 {
@@ -21,30 +22,26 @@ h1 {
   border-width: 0.047em;
 }
 
-.mySlides {
-  border-radius: 1.667em;
-  border-style: solid;
-  border-width: 0.216em;
-}
-
 img {
   align-items: center;
   width: 84%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 1em;
 }
 
 form {
-  background-color: #C09379;
-  text-align: left;
+  border-style: solid;
+  border-width: 0.216em;
+  background-color: #8584AC;
   border-radius: 1em;
   padding: 2.779em;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin: 1em;
 }
 
 label {
+  text-align: left;
   font-size: 1.667em;
 }
 
