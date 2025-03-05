@@ -1,20 +1,39 @@
-<!-- Hailie Jade Juliano -- Project 1 -- March 4, 2025 -- Lab 3_ITMD 362-->
+<!-- Hailie Jade Juliano 
+ -- Project 1 
+ -- March 4, 2025 
+ -- Lab 3_ITMD 362-->
 
 <!DOCTYPE html>
-<html lang="en" class="nojs">
-    <head>
-        <title>ITMD 362 Project 1</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="viewport">
-        <!--reset for css -->
-        <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
+<html lang="en">
+<head>
+  <title>Purrfect Pics</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="viewport">
+  <!--reset for css -->
+  <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
+  <link rel="stylesheet" media="screen" href="css/screen.css">
+</head>
+<body>
+<main id="content">
+  <form method="get" action="#null">
+    <h1>Purrfect Pics</h1>
+    <image></image>
+    <ol>
+      <li id="input-first_name">
+        <label for="first_name">Name</label>
+        <input type="text" name="first_name">
+      </li>
+      <li id="input-last_name">
+        <label for="last_name">Name</label>
+        <input type="text" name="last_name">
+      </li>
+      <li id="input-email">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" pattern="^.+@.+$">
+      </li>
 
-    </head>
-    <body>
-        <main>
-            <form method="get" action="#null">
-
-            </form>
-        </main>
-    </body>
+    </ol>
+  </form>
+</main>
+</body>
 </html>
