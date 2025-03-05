@@ -1,0 +1,33 @@
+body {
+    background-color:#F5EBE0;
+}
+
+h1 {
+    background-color: #14213D;
+    color: #E76F51;
+    font-size: 4.632em;
+    text-align: center;
+    border-radius: 0.36em;
+    padding: 0.6em;
+    margin-left: 1.667em;
+    margin-right: 1.667em;
+}
+
+form{
+    background-color: #6F1D1B;
+    text-align: left;
+    border-radius: 1em;
+    padding: 2.779em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+@media only screen and (min-width: 480px) {
+
+}
+@media only screen and (min-width: 992px) {
+
+}
