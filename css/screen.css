@@ -1,20 +1,22 @@
 body {
-    background-color:#F5EBE0;
+    background-color:#F5EFF4;
 }
 
 h1 {
-    background-color: #14213D;
-    color: #E76F51;
+    background-color: #8584AC;
+    color: black;
     font-size: 4.632em;
     text-align: center;
     border-radius: 0.36em;
     padding: 0.6em;
     margin-left: 1.667em;
     margin-right: 1.667em;
+    border-style: solid;
+    border-width: 0.078em;
 }
 
 form{
-    background-color: #6F1D1B;
+    background-color: #C09379;
     text-align: left;
     border-radius: 1em;
     padding: 2.779em;
