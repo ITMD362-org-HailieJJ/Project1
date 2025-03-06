@@ -1,5 +1,5 @@
 body {
-  background-color:#F5EFF4;
+  background-color:#000000;
   font-family: Arial, Verdana, Helvetica, sans-serif;
 }
 
@@ -7,9 +7,8 @@ body {
   background-color: #C09379;
   border-style: solid;
   border-width: 0.047em;
-  margin: 1.667em;
+  margin: 3em;
   border-radius: 1em;
-  box-shadow: 2em 2em 1.5em #4D3E3D;
 }
 
 h1 {
@@ -21,30 +20,49 @@ h1 {
   margin: 1em;
   border-radius: 0.36em;
   border-style: solid;
-  border-width: 0.0047em;
+  border-width: 0.08em;
 }
 
 img {
   align-items: center;
-  width: 84%;
+  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 1em;
-  padding: 0.6em;
+  border-width: 0.3em;
+}
+
+button {
+  align-items: center;
+  width: 40%;
+  height: 3em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.leftButton {
+  float: left;
+  margin-left: 10%;
+}
+
+.rightButton {
+  float: right;
+  margin-right: 10%;
 }
 
 form {
   font-size: 1em;
   font: HelveticaS;
   border-style: solid;
-  border-width: 0.047em;
+  border-width: 0.3em;
   background-color: #8584AC;
   border-radius: 1em;
   padding: 1.667em;
   margin-left: 5em;
   margin-right: 5em;
-  margin-top: 2em;
+  margin-top: 5em;
   margin-bottom: 2em;
 }
 
