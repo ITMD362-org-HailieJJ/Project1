@@ -81,7 +81,100 @@ input[type="checkbox"] {
 
 @media only screen and (min-width: 480px) {
 /*add floats*/
+/*ipad */
+body {
+  background-color: #C09379;
 }
-@media only screen and (min-width: 992px) {
 
+h1 {
+  border-width: 0.04em;
+  font-size: 2.779em;
+  width: 72%;
+  margin-left: 10%;
+}
+
+#content {
+  border-style: none;
+  border-width: 0em;
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+/*desktop*/
+body {
+  background-color: #C09379;
+}
+
+#content {
+  background-color: #C09379;
+  border-style: none;
+  border-width: 0em;
+  margin: 0em;
+  border-radius: 0em;
+}
+
+h1 {
+  background-color: #8584AC;
+  font-size: 2.779em;
+  text-align: center;
+  padding: 0.6em;
+  margin: 1em;
+  border-radius: 0;
+  border-style: none;
+  border-width: 0;
+}
+
+.flex-box {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-box > div {
+  background-color: #C09379;
+}
+
+img {
+  align-items: right;
+  width: 50%;
+  display: block;
+  margin-left: 25%;
+  margin-right: 0;
+  border-radius: 0em;
+  border-width: 0.3em;
+}
+
+form {
+  border-style: none;
+  border-width: 0em;
+  background-color: #8584AC;
+  border-radius: 0em;
+  width: 50%;
+}
+
+button {
+  width: 25%;
+  height: 5%;
+  float: none;
+  margin: 0em;
+  align-items: normal;
+  display: block;
+  margin-left: 0em;
+  margin-right: 0em;
+  padding: 0;
+}
+
+.leftButton {
+  float: left;
+  margin-left: 25%;
+}
+
+.rightButton {
+  float: right;
+  margin-right: 25%;
+}
+
+.Slideshow {
+  width: 75%;
+}
 }
